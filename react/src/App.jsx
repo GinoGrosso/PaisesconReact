@@ -1,0 +1,19 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/Home';
+import Recientes from './pages/Recientes';
+import PaisDetail from './pages/PaisDetail';
+import NotFound from './pages/NotFound';
+function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/recientes" element={<Recientes />} />
+        <Route path="/pais/:cca3" element={<PaisDetail />} />
+        <Route path="/*" element={<NotFound />} />
+      </Routes>
+    </BrowserRouter>
+  )
+}
+
+export default App;
