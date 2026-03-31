@@ -1,11 +1,21 @@
+<<<<<<< HEAD
 import { Link } from 'react-router-dom'
 import Footer from '../components/Footer.jsx'
 import Header from '../components/Header.jsx'
+=======
+import Footer from "../components/Footer"
+import Header from "../components/Header"
+import { Link } from "react-router-dom"
+>>>>>>> 819fd524eee68cb344fb7676482b3efe54a84869
 function NotFound() {
   return (
     <div className="not-found">
       <div className="error-content">
+<<<<<<< HEAD
      <Header />
+=======
+        <Header />
+>>>>>>> 819fd524eee68cb344fb7676482b3efe54a84869
     <main className="main">
       <div className="error-404">
         <div className="error-content">
@@ -29,7 +39,11 @@ function NotFound() {
         </div>
       </div>
     </main>
+<<<<<<< HEAD
     <Footer />
+=======
+      <Footer />
+>>>>>>> 819fd524eee68cb344fb7676482b3efe54a84869
       </div>
     </div>
   )
