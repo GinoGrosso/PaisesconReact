@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import { Link } from 'react-router-dom'
-=======
 import { Link } from "react-router-dom"
->>>>>>> 819fd524eee68cb344fb7676482b3efe54a84869
 function Header() {
   return (
     <header className="header">

@@ -4,11 +4,6 @@ import Home from './pages/Home.jsx';
 import Recientes from './pages/Recientes.jsx';
 import PaisDetail from './pages/PaisDetail.jsx';  
 import NotFound from './pages/NotFound.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Home from './pages/Home';
-import Recientes from './pages/Recientes';
-import PaisDetail from './pages/PaisDetail';
-import NotFound from './pages/NotFound';
 function App() {
   return (
     <BrowserRouter>
